@@ -1,0 +1,38 @@
+.new-activity-page{
+  overflow-y: hidden;
+  position: fixed;
+  #games{
+    margin-left: 82px;
+  }
+
+  .back{
+    position: absolute;
+    width: 70px;
+    margin-top: 4px;
+  }
+  .second{
+    margin-top: -122px;
+  }
+
+  .logo{
+    margin-left: -153px;
+    margin-bottom: 20px;
+  }
+  #dilemmas{
+    margin-bottom: 24px;
+    margin-left: -177px;
+  }
+  #debate{
+    margin-left: -172px;
+    margin-bottom: 11px;
+  }
+  .quote{
+    margin-top: 120px;
+    position: fixed;
+    display: inline-flex;
+    width: 380px;
+    text-align: center;
+    margin-left: 170px;
+    font-size: x-large;
+  }
+}

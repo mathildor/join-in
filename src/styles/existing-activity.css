@@ -1,0 +1,70 @@
+.existing-activity-page{
+
+  .main-area{
+    display: flex;
+  }
+  .grid-div{
+      display: table;
+      margin-top: 11%;
+  }
+
+  .logo{
+    width: 229px;
+    margin-left: 269%;
+    margin-top: 58px;
+  }
+  .back{
+    width: 65px;
+    margin: 29px;
+    z-index: 9999;
+  }
+  .row2{
+    /*margin-left: 100px;*/
+    margin-top: -95px;
+  }
+  .short{
+    width: 678px;
+  }
+}
+
+#grid-box{
+  margin-top: 65px;
+  margin-left: 54px;
+  margin-right: 54px;
+  .box-shape{
+    background-color: grey;
+    /*width: 130px;
+    height: 130px;*/
+    width: 230px;
+    height: 230px;
+    transform: rotate(45deg);
+    box-shadow: 7px 5px 16px #3a3838;
+
+    .event-name{
+      margin-bottom: 0px;
+      margin-top: 29px;
+      font-size: 26px;
+      margin-left: -94px;
+      text-align: center;
+    }
+    .person-info{
+      width: 74px;
+      h4{
+        font-size: 20px;
+        margin:0;
+        margin-right: 10px;
+        margin-top: 10px;
+      }
+    }
+
+    .box-content{
+      transform: rotate(-45deg);
+      margin-right: 8px;
+      padding-top: 39px;
+      width: 100%;
+    }
+    .long-text{
+       margin-left: -37px;
+    }
+  }
+}
