@@ -12,6 +12,9 @@
 
   .choose{
     margin-top: -152px;
+    a:hover{
+      opacity: 0.8;
+    }
   }
   .full-table{
     right: 0;

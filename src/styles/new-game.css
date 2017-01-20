@@ -1,0 +1,48 @@
+
+#overlay{
+  z-index: 99;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.62);
+  height: 177vh;
+  width: 102vw;
+  margin-top: -10px;
+}
+
+.new-game-popup{
+  z-index: 99999;
+
+  img{
+    width: 71%;
+    margin-left: 39%;
+    margin-top: 10%;
+  }
+  #close-button{
+    width: 30px;
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 102%;
+  }
+
+  #new-event-button{
+    width: 189px;
+    margin-top: -16%;
+    margin-left: 65%;
+    display: -webkit-box;
+  }
+
+  #member-input{
+    z-index: 99999999999;
+    margin-top: -33.3%;
+    margin-left: 62%;
+    width: 300px;
+    input{
+      font-size: 18px;
+      width: 30px;
+      height: 30px;
+
+    }
+    .second-input{
+      margin-left: 66%;
+    }
+  }
+}

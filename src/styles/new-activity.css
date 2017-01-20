@@ -26,6 +26,9 @@
     margin-left: -172px;
     margin-bottom: 11px;
   }
+  #games:hover{
+      opacity: 0.8;
+  }
   .quote{
     margin-top: 120px;
     position: fixed;

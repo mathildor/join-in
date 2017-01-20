@@ -1,0 +1,38 @@
+.new-game{
+
+  .games-back{
+    width: 5%;
+    margin-left: 20px;
+  }
+  .menu-text{
+    font-size: 22px;
+    margin-top: 25%;
+    margin-left: 34%;
+    width: 205px;
+    text-align: center;
+    font-family: 'Bangla Sangam MN';
+    color: #525556;
+  }
+
+  #games-menu{
+    width: 100vw;
+    .header{
+        width: 295px;
+        font-size: 42px;
+        h1{
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+    }
+
+
+    #rutenett{
+      width: 54%;
+      margin-left: auto;
+      margin-right: auto;
+      display: -webkit-box;
+    }
+
+
+  }
+}

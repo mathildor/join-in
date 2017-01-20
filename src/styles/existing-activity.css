@@ -22,8 +22,24 @@
     /*margin-left: 100px;*/
     margin-top: -95px;
   }
+  .row3{
+    margin-top: -95px;
+  }
   .short{
     width: 678px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .quote{
+    position: absolute;
+    margin-left: 34%;
+    margin-top: 63%;
+    font-size: 25px;
+    h2{
+      color: white;
+    }
   }
 }
 
@@ -31,6 +47,9 @@
   margin-top: 65px;
   margin-left: 54px;
   margin-right: 54px;
+
+
+
   .box-shape{
     background-color: grey;
     /*width: 130px;
@@ -40,15 +59,19 @@
     transform: rotate(45deg);
     box-shadow: 7px 5px 16px #3a3838;
 
+    :hover{
+      opacity: 0.8;
+    }
+
     .event-name{
       margin-bottom: 0px;
       margin-top: 29px;
       font-size: 26px;
-      margin-left: -94px;
+      margin-left: -55px;
       text-align: center;
     }
     .person-info{
-      width: 74px;
+      width: 140px;
       h4{
         font-size: 20px;
         margin:0;
@@ -62,6 +85,11 @@
       margin-right: 8px;
       padding-top: 39px;
       width: 100%;
+    }
+    #debate{
+      width: 233px;
+      margin-left: -14px;
+      margin-top: -1px;
     }
     .long-text{
        margin-left: -37px;

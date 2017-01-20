@@ -4,7 +4,7 @@ import { Router, Route, Link, browserHistory } from 'react-router';
 
 // <Content />
 
-export class Existing_activity extends React.Component<{}, {}> {
+export class Existing_activity2 extends React.Component<{}, {}> {
   render() {
     return (
       <div id="wrapper" className="existing-activity-page full-width">
@@ -24,12 +24,11 @@ export class Existing_activity extends React.Component<{}, {}> {
               </div>
               <div className="center-div row2">
                 <div className=" inline center-div short">
-                  <Link to="cards"><Grid_box eventName="Cards Against Humanity" idname="cards" color="#6BC4D8" person="pers-hvit.png" persFarge="white" freeSpace="+3"/></Link>
                   <Grid_box eventName="Dilemmas" color="#6BC4D8" idname="dilemma" person="pers-hvit.png" persFarge="white" freeSpace="+5"/>
+                  <Grid_box eventName="Quiz" idname="quiz" color="#6BC4D8" person="pers-hvit.png" freeSpace="+5" persFarge="white" />
                 </div>
               </div>
               <div className="inline row3">
-                <Grid_box eventName="Quiz" idname="quiz" color="#dcdcdc" person="pers.png" freeSpace="+5" persFarge="#47b88f" />
               </div>
               {/* <img className="grid" src="../public/images/existing-activity/rutenett.png"></img> */}
             </div>

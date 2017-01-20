@@ -5,7 +5,10 @@ import { Root } from "./components/Root";
 import { Home } from "./components/Home";
 import { New_activity } from "./components/New_activity";
 import { Existing_activity } from "./components/Existing_activity";
+import { Existing_activity2 } from "./components/Existing_activity2";
 import { Games } from "./components/Games";
+import { GamePopup } from "./components/GamePopup";
+import { NewCards } from "./components/NewCards";
 import { Router, Route, Link, browserHistory } from 'react-router';
 import "./styles/main.css";
 
@@ -18,7 +21,10 @@ ReactDOM.render(
           <Route path="/Home" component={ Home } />
           <Route path="/New-activity" component={ New_activity }/>
           <Route path="/Existing-activity" component={ Existing_activity }/>
+          <Route path="/Existing-activity2" component={ Existing_activity2 }/>
           <Route path="/games" component={ Games } />
+          <Route path="/cards" component={ GamePopup } />
+          <Route path="/new-cards" component={ NewCards } />
       </Router>
     ),
     document.getElementById("joinin")
