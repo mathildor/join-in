@@ -29,7 +29,7 @@ export class New_activity extends React.Component<{}, {}> {
             :<div></div>
           // :<Notification/>
           }
-          <Link to="/home"><img className="back" src="../public/images/back-dark.png"></img></Link>
+          <Link to="/home2"><img className="back" src="../public/images/back-dark.png"></img></Link>
           <div id ="new-activity">
             <Link to="/games"><img id="games" src="../public/images/games-background2.png"></img></Link>
             <img onClick={this.showNotification} className="logo" src="../public/images/logo-black.png"></img>

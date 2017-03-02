@@ -29,4 +29,13 @@
   .tables{
     margin-top: -186px;
   }
+
+  #your-activity{
+    margin-left: -267px;
+    margin-top: 92px;
+  }
+  #your-activity:hover{
+    opacity: 0.8;
+  }
+
 }
